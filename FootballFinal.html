@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tama Toa</title>
+	<link rel="stylesheet" href="footballfinal.css" />
+</head>
+<body>
+	<header>
+	<div class="logo">
+	<h1 class="banner">TAMA TOA FOOTBALL</h1>
+	</div></header>
+	<nav id="desktop-nav">
+
+		<div>
+		<img src="images/ToaT.png"
+		alt="small-icon"
+		class="small-icon"
+		/>
+			<ul class="nav-links">
+				<li><a href="#home">Home</a></li>			
+				<li><a href="#schedule">Schedule</a></li>		
+				<li><a href="#donations">Donations</a></li>		
+				<li><a href="#photos">Photos</a></li>		
+				<li><a href="#roster">Roster</a></li>	
+				<li><a href="#about">About</a></li>		
+			</ul>
+		</div>
+	</nav>
+		<nav id="hamburger-nav">
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+				<div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+				</div>
+			<div class="menu-links">
+				<li><a href="#home" onclick="toggleMenu()">Home</a></li>			
+				<li><a href="#schedule" onclick="toggleMenu()">Schedule</a></li>		
+				<li><a href="#donations" onclick="toggleMenu()">Donations</a></li>		
+				<li><a href="#photos" onclick="toggleMenu()">Photos</a></li>		
+				<li><a href="#roster" onclick="toggleMenu()">Roster</a></li>	
+				<li><a href="#about" onclick="toggleMenu()">About</a></li>	
+			</div>
+			</div>
+		</nav>
+	<section id="home"> 
+		<div class="section__pic-container">
+		<img  class="img" src="images/TaoT2.png" alt="team-logo" />
+		</div>
+			<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon arrow"
+	onclick="location.href='#schedule'"
+	/>	
+	</section>
+	
+	
+	<section id="schedule"> 
+		<div class="schedule-text">
+		<p class="p1">Check Out Our</p>
+		<h1 class="title">Schedule</h1>
+		</div>
+		<div class="section-container">
+		<div class="section__pic-container2">
+		<img  class="img2" src="images/schedule2.jpg" alt="team-logo" />
+		</div>
+		</div>
+	<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon arrow"
+	onclick="location.href='#schedule2'"
+	/>	
+	<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon2 arrow2"
+	onclick="location.href='#home'"
+	/>	
+	</section>
+	
+	
+	<section id="schedule2"> 
+		<div class="section-container">
+		<div class="section__pic-container2">
+		<img  class="img2" src="images/schedule1.jpg" alt="team-logo" />
+		</div>
+		</div>
+	<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon arrow"
+	onclick="location.href='#donations'"
+	/>	
+	<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon2 arrow2"
+	onclick="location.href='#schedule'"
+	/>	
+	</section>
+	
+	
+	<section id="donations">
+		<div class="schedule-text">
+		<h1 class="title">Donations</h1>
+		</div>
+		<div class="section-container">
+		<div class="section__pic-container2">
+		<img  class="img2" src="images/flier.jpg" alt="team-logo" />
+		</div>
+		</div>
+		<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon arrow"
+	onclick="location.href='#photos'"
+	/>	
+		<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon2 arrow2"
+	onclick="location.href='#schedule2'"
+	/>	
+	</section>
+	
+	
+	<section id="photos"> 
+		<div class="schedule-text">
+		<h1 class="title">Photos</h1>
+		</div>
+		<div class="section-container">
+		<div class="section__pic-container2">
+		<div id="slideshow-container-1">
+        <img class="slide" src="images\uni1.jpg">
+        <img class="slide hidden" src="images\uni2.jpg">
+        <img class="slide hidden" src="images\uni3.jpg">
+        <img class="slide hidden" src="images\uni4.jpg">
+    </div>
+		</div>
+		</div>
+		<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon arrow"
+	onclick="location.href='#photos2'"
+	/>	
+		<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon2 arrow2"
+	onclick="location.href='#donations'"
+	/>	
+	</section>
+	
+	<section id="photos2"> 
+		<div class="schedule-text">
+		</div>
+		<div class="section-container">
+		<div class="section__pic-container2">
+		<div id="slideshow-container-2">
+        <img class="slide" src="images\q1.jpg">
+        <img class="slide hidden" src="images\q2.jpg">
+        <img class="slide hidden" src="images\q3.jpg">
+        <img class="slide hidden" src="images\q4.jpg">
+    </div>
+		</div>
+		<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon arrow"
+	onclick="location.href='#photos3'"
+	/>	
+		<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon2 arrow2"
+	onclick="location.href='#photos'"
+	/>	
+	</section>
+	
+	
+		<section id="photos3"> 
+		<div class="schedule-text">
+		</div>
+		<div class="section-container">
+		<div class="section__pic-container2">
+		    <video class="vid"  onclick="playPause()" controls>
+        <source src="images/high1.mp4" type="video/mp4">
+    </video>
+	</div>
+		</div>
+		<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon arrow"
+	onclick="location.href='#roster'"
+	/>	
+		<img src="images/arrow.png" 
+	alt="arrow"
+	class="icon2 arrow2"
+	onclick="location.href='#photos2'"
+	/>	
+	</section>
+	
+
+	<section id="roster"> 
+		<div class="section__pic-container">
+		<img  class="img" src="images/TaoT2.png" alt="team-logo" />
+		</div>
+	</section>
+	
+	
+	<section id="about"> 
+		<div class="section__pic-container">
+		<img  class="img" src="images/TaoT2.png" alt="team-logo" />
+		</div>
+	</section>
+<script src="footballfinal.js"></script>
+</body>
+</html>
