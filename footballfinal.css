@@ -461,7 +461,7 @@ slide {
 	}
 	#hamburger-nav { 
 		display: flex; 
-		background-color: rgb(26, 30, 100);
+		background-color: rgb(9, 54, 186);
 	}
 	#home, .section-container {
 		display: block;
