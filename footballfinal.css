@@ -426,7 +426,7 @@ slide {
 	justify-content: center;
 	gap: 0.5rem; 
 	height: 100vh;
-	background: linear-gradient(170deg,  #0936BA, #0936BA, #EA0A0A, #EA0A0A);
+	background: linear-gradient(170deg, #0936BA, #0936BA, #EA0A0A, #EA0A0A);
 }
 #photos3, .section-container{
 	position: relative;
@@ -461,14 +461,14 @@ slide {
 	}
 	#hamburger-nav { 
 		display: flex; 
-		background-color: rgb(9, 54, 186);
+		background-color: rgb(9,54,186);
 	}
 	#home, .section-container {
 		display: block;
 	}
 	.icon{
 		position: absolute;
-		bottom: 2.5rem;
+		bottom: 1rem;
 		left: 50%;
 		transform: translateX(-50%);
 		display: flex;
@@ -562,7 +562,7 @@ a:hover{
 @media screen and (min-width: 450px) and (max-width: 800px){
 	
 	.icon{
-		bottom: 1rem; 
+		bottom: 2rem; 
 		left: 50%;
 		transform: translateX(-50%);
 		width: 80px;
